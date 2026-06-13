@@ -4,7 +4,8 @@ on:
   push:
     tags:
       - 'tqp-v*'
-
+  workflow_dispatch:
+  
 env:
   CMAKE_ARGS: "-DLLAMA_BUILD_EXAMPLES=OFF -DLLAMA_BUILD_TESTS=OFF -DLLAMA_BUILD_TOOLS=ON -DLLAMA_BUILD_SERVER=ON"
 
