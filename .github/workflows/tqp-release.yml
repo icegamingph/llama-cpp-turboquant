@@ -45,7 +45,7 @@ jobs:
 
     strategy:
       matrix:
-        cuda: ['12.4']
+        cuda: ['13.1']
 
     steps:
       - name: Clone
